@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logo-a-alura" src="imgs/logo-a-alura.png" alt="Letra a minúscula que constitui a logo da Alura.">
+    </header>
+    <main>
+        <section class="section-text-area1">
+            <textarea class="text-area1" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            
+            
+            <div class="aviso-e-botoes">
+                <p class="p-aviso">Apenas letras minúsculas e sem acento.</p>
+                
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-text-area2">
+            <textarea class="text-area2" cols="20" rows="11"></textarea>
+            
+            <h6 class="titulo-text-area2">Nenhuma mensagem encontrada</h6>
+            <p class="p-text-area2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            
+            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="p-footer">&copy; 2024 Desenvolvido por Lorena S. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
