@@ -18,41 +18,24 @@ HTML, CSS e javascript.
     - https://caelum-online-public.s3.amazonaws.com/one-tgf/Challenge_-_Decodificador_vfinal_4.pdf
 
 ## Requisitos:
+Crie um encriptador de texto, onde:
+
 * A letra "e" é convertida para "enter"
 * A letra "i" é convertida para "imes"
 * A letra "a" é convertida para "ai"
 * A letra "o" é convertida para "ober"
 * A letra "u" é convertida para "ufat"
 
-
 * Extra!
 Um rodapé com os dados da pessoa que desenvolveu o site!
-*
-*
-*
 
-Perguntar:
-uso do focus
-Como posso fazer para que estes desapareçam após algo seja digitado?
-- <h6 class="titulo-text-area2">Nenhuma mensagem encontrada</h6>
-- <p class="p-text-area2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+## Neste desafio utilizamos:
 
+Diversas tags HTML no arquivo index.html para criação do corpo da página e sua respectivas classes, posteriormente utilizadas no arquivo style.css para a estilização da página.
+Declarações de variáveis e funções no script.js.
+A substituíção global /string/g para selecionar toda ocasião que determinada letra aparece e o método .replace para substituir o que foi selecionado por outro valor contido entre aspas. 
 
-# Faltam:
-
-- HTML/CSS:
-    Organizar melhor a posição dos itens [ ]
-    Responsividade [ ]
-
-- JS:
-    Fazer botao de copiar funcionar [x]
-    Elaborar funcoes de criptografar e decriptografar (.replace?) [x]
-    nao aceitar caracteres especiais [ ]
-
-# Entendendo passo a passo:
-
-1. HTML/CSS:
-
-
-
-2. Javascript:
+    exemplo:
+        let palavraInicial = "abacate";
+        let palavraNova = palavraInicial.replace(/a/g, "ai");
+        console.log(palavraNova);
