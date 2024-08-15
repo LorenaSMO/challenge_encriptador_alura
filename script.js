@@ -5,7 +5,7 @@ let textArea2 = document.querySelector(".text-area2") /*saída criptografada*/
 /*criar funções para onclick dos botões encriptar, desencriptar e copiar */
 
 function btnEncriptar() {
-    let encriptar = textArea.value.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
+    let encriptar = textArea.value.replace(/[^a-zA-Z ]/g, '').replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
     textArea2.innerHTML = encriptar
     esconderMensagens() 
 };
