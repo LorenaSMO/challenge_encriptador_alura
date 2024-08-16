@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Challenge Alura</title>
 </head>
@@ -10,13 +11,16 @@
     <header>
         <img class="logo-a-alura" src="imgs/logo-a-alura.png" alt="Letra a minúscula que constitui a logo da Alura.">
     </header>
-    <main>
+    <main class="container">
         <section class="section-text-area1">
-            <textarea class="text-area1" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <textarea class="text-area1" cols="28" rows="4" placeholder="Digite seu texto"></textarea>
             
             
             <div class="aviso-e-botoes">
-                <p class="p-aviso">Apenas letras minúsculas e sem acento.</p>
+                <div class="aviso">
+                    <i class="far fa-exclamation icon-exclamacao"></i>
+                    <p class="p-aviso">Apenas letras minúsculas e sem acento.</p>
+                </div>
                 
                 <div class="botoes">
                     <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
@@ -26,16 +30,20 @@
         </section>
         
         <section class="section-text-area2">
-            <textarea class="text-area2" cols="20" rows="11"></textarea>
+            <textarea class="text-area2" cols="19" rows="12"></textarea>
             
             <img class="imagem" src="imgs/arte.png" alt="">
-            <h6 class="titulo-text-area2">Nenhuma mensagem encontrada</h6>
-            <p class="p-text-area2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <div class="infos">
+                <h6 class="titulo-text-area2">Nenhuma mensagem encontrada</h6>
+                <p class="p-text-area2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
             
             <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
         </section>
     </main>
     <footer class="footer">
+        <a href="https://github.com/LorenaSMO" target="_blank"><i class="fa-brands fa-github icon-github"></i></a>
+       
         <p class="p-footer">&copy; 2024 Desenvolvido por Lorena S. Todos os direitos reservados.</p>
     </footer>
     <script src="script.js"></script>

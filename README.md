@@ -11,9 +11,9 @@ HTML, CSS e javascript.
 ## Conteúdo de apoio:
 
 - Figma:
-    - https://www.figma.com/design/tgsfq4mOYV4Lr7wIfaCCzb/Alura-Challenge---Desafio-1---L%C3%B3gica-(Copy)?node-id=0-1&t=1VCHM4fCK2yAMXXS-0
+    - https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=0-1&t=Vb0UoUOgkmeTNKRF-0
 - Trello:
-    - https://trello.com/b/MiA6s5pl/desafio-decodificador
+    - https://trello.com/b/qmLsVkkq/decodificador-de-texto-alura-challenges-oracle-one
 - Infográfico do decodificador de texto:
     - https://caelum-online-public.s3.amazonaws.com/one-tgf/Challenge_-_Decodificador_vfinal_4.pdf
 
