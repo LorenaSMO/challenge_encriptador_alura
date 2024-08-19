@@ -23,8 +23,8 @@ Crie um encriptador de texto, onde:
 - [x] A letra "**o**" é convertida para "**ober**"
 - [x] A letra "**u**" é convertida para "**ufat**"
 
-- [x] Deve funcionar apenas com letras minúsculas
-- [x] Não devem ser utilizados letras com acentos nem caracteres especiais  
+- [x] Deve funcionar apenas com letras minúsculas.
+- [x] Não devem ser utilizados letras com acentos nem caracteres especiais.
 - [x] Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
         Por exemplo:

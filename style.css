@@ -8,6 +8,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 52px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -18,9 +19,10 @@
 
 .logo-a-alura {
     width: 120px;
-    height: 48px;
-    margin-left: 10px;
-    padding-top: 20px;
+    height: 70px;
+    margin-left: 30px;
+    padding-top: 30px;
+
 }
 
 .section-text-area1 {
@@ -36,6 +38,7 @@
     color: #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
+    resize: none;
 }
 
 ::placeholder { color: #0A3871; }
@@ -53,6 +56,7 @@
     background-color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 30px;
+    font-size: 0.5rem;
 }
 
 .btn-desencriptar {
@@ -64,11 +68,14 @@
     background-color: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 30px;
+    font-size: 0.5rem;
 }
 
 .p-aviso {
     font-size: 16px;
     color: #495057;
+    margin-left: 7px;
+    margin-bottom: 5px;
 }
 
 .aviso-e-botoes {
@@ -83,6 +90,7 @@
     background-color: white;
     border-radius: 30px;
     position: fixed;
+    resize: none;
     
 }
 
@@ -122,11 +130,12 @@
     position: absolute;
     width: 336px;
     height: 67px;
-    margin-top: 600px;
+    margin-top: 560px;
     margin-left: 108px;
     color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 25px;
+    font-size: 0.5rem;
 }
 
 .footer {
@@ -172,17 +181,14 @@
     background: #0A3871;
 }
 
-/* 
-@media (min-width: 600px){ desktop
-    main {
-        width: 100%;
+@media screen and (max-width: 1115px){
+    .container {
+		display: grid;
+        grid-template-columns: 5fr;
+		grid-template-rows: 65% auto;
+		margin: auto;
+        font-size: 10px;
     }
-@media (min-width: 768px) { tablet
-    main {
-        width: 100%;
-    }
-@media (min-width: 375px){ celular
-    main {
-        width: 100%;
-    }
-*/
+}
+
+

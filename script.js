@@ -2,6 +2,11 @@
 let textArea = document.querySelector(".text-area1") /*entrada*/
 let textArea2 = document.querySelector(".text-area2") /*saída criptografada*/
 
+// textArea.addEventListener("input", (event) => {
+//     textArea.value.replace(/[^a-zA-Z ]/g, '');
+//     event.target.value.replace(/[^a-zA-Z ]/g, '');
+// });
+
 /*criar funções para onclick dos botões encriptar, desencriptar e copiar */
 
 function btnEncriptar() {
